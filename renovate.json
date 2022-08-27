@@ -6,7 +6,7 @@
   "labels": ["renovate"],
   "packageRules": [
     {
-      "matchPackageName": ["azurerm"],
+      "matchPackageNames": ["azurerm"],
       "matchUpdateTypes": [
         "major"
       ],
