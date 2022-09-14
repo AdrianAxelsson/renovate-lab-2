@@ -10,7 +10,8 @@
       "matchUpdateTypes": [
         "patch",
         "minor"
-      ]
+      ],
+      "groupName": "azurerm-non-major"
     }
   ]
 }
