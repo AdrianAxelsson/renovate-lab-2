@@ -4,14 +4,16 @@
     ":dependencyDashboard"
   ],
   "labels": ["renovate"],
+  "separateMultipleMajor": true,
   "packageRules": [
     {
       "matchPackageNames": ["azurerm"],
       "matchUpdateTypes": [
-        "patch",
-        "minor"
+        "major"
       ],
-      "groupName": "azurerm-non-major"
+      "addLabels": ["major"],
+      "groupName": "azurerm major",
+      "groupSlug": "azurerm-major"
     }
   ]
 }
