@@ -4,7 +4,6 @@
     ":dependencyDashboard"
   ],
   "labels": ["renovate"],
-  "separateMultipleMajor": true,
   "packageRules": [
     {
       "matchPackageNames": ["azurerm"],
@@ -13,7 +12,7 @@
       ],
       "addLabels": ["major"],
       "groupName": "azurerm major",
-      "groupSlug": "azurerm-major"
+      "separateMultipleMajor": true
     }
   ]
 }
