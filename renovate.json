@@ -11,8 +11,7 @@
         "major"
       ],
       "addLabels": ["major"],
-      "groupName": "azurerm major",
-      "separateMultipleMajor": true
+      "groupName": "azurerm major"
     }
   ]
 }
